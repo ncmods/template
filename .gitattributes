@@ -1,0 +1,14 @@
+* text=auto
+
+# Gradle
+gradle/*           linguist-vendored
+build.gradle      -linguist-detectable
+checkstyle.xml    -linguist-detectable
+gradle.properties -linguist-detectable
+gradlew            linguist-vendored
+gradlew.bat        linguist-vendored
+settings.gradle   -linguist-detectable
+
+# Miscellaneous
+.editorconfig -linguist-detectable
+.travis.yml   -linguist-detectable
