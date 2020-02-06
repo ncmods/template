@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "package": "io.github.ncmods.template.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [],
+  "client": [
+    "TemplateMixin"
+  ],
+  "server": [],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

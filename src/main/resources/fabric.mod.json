@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "id": "${base_name}",
+  "version": "${version}",
+  "name": "${name}",
+  "description": "${desc}",
+  "authors": [
+    {
+      "name": "ncmodder"
+    }
+  ],
+  "contributors": [],
+  "contact": {
+    "issues": "https://github.com/ncmods/${base_name}/issues",
+    "sources": "https://github.com/ncmods/${base_name}"
+  },
+  "license": "MIT",
+  "icon": "assets/${base_name}/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "${maven_group}.${base_name}.${name}Mod"
+    ],
+    "client": [],
+    "server": []
+  },
+  "mixins": [
+    "${base_name}.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.7.5",
+    "fabric": ">=0.4.9",
+    "minecraft": "1.15.2"
+  }
+}
